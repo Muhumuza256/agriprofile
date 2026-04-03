@@ -1,0 +1,102 @@
+[
+  {
+    "model": "parameters.cropincomeindex",
+    "pk": "00000000-0000-0000-0000-000000000001",
+    "fields": {
+      "crop_name": "Vanilla",
+      "multiplier": "2.000",
+      "tier": "tier_1",
+      "is_active": true,
+      "created_at": "2026-04-01T00:00:00Z",
+      "updated_at": "2026-04-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "parameters.cropincomeindex",
+    "pk": "00000000-0000-0000-0000-000000000002",
+    "fields": {
+      "crop_name": "Coffee",
+      "multiplier": "1.800",
+      "tier": "tier_1",
+      "is_active": true,
+      "created_at": "2026-04-01T00:00:00Z",
+      "updated_at": "2026-04-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "parameters.cropincomeindex",
+    "pk": "00000000-0000-0000-0000-000000000003",
+    "fields": {
+      "crop_name": "Cocoa",
+      "multiplier": "1.700",
+      "tier": "tier_1",
+      "is_active": true,
+      "created_at": "2026-04-01T00:00:00Z",
+      "updated_at": "2026-04-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "parameters.cropincomeindex",
+    "pk": "00000000-0000-0000-0000-000000000004",
+    "fields": {
+      "crop_name": "Tea",
+      "multiplier": "1.600",
+      "tier": "tier_1",
+      "is_active": true,
+      "created_at": "2026-04-01T00:00:00Z",
+      "updated_at": "2026-04-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "parameters.cropincomeindex",
+    "pk": "00000000-0000-0000-0000-000000000005",
+    "fields": {
+      "crop_name": "Maize",
+      "multiplier": "1.100",
+      "tier": "tier_3",
+      "is_active": true,
+      "created_at": "2026-04-01T00:00:00Z",
+      "updated_at": "2026-04-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "parameters.cropincomeindex",
+    "pk": "00000000-0000-0000-0000-000000000006",
+    "fields": {
+      "crop_name": "Beans",
+      "multiplier": "1.000",
+      "tier": "tier_3",
+      "is_active": true,
+      "created_at": "2026-04-01T00:00:00Z",
+      "updated_at": "2026-04-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "parameters.cropincomeindex",
+    "pk": "00000000-0000-0000-0000-000000000007",
+    "fields": {
+      "crop_name": "Cassava",
+      "multiplier": "0.700",
+      "tier": "tier_4",
+      "is_active": true,
+      "created_at": "2026-04-01T00:00:00Z",
+      "updated_at": "2026-04-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "parameters.loanpolicyparameter",
+    "pk": "00000000-0000-0000-0001-000000000001",
+    "fields": {
+      "institution_name": "Default (General Policy)",
+      "annual_interest_rate": "0.2000",
+      "repayment_income_threshold": "0.35",
+      "minimum_loan_ugx": "500000.00",
+      "maximum_loan_ugx": "50000000.00",
+      "minimum_acs_score": "35.00",
+      "is_default": true,
+      "is_active": true,
+      "created_at": "2026-04-01T00:00:00Z",
+      "updated_at": "2026-04-01T00:00:00Z"
+    }
+  }
+]
