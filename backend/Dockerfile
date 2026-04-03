@@ -20,7 +20,7 @@ WORKDIR /app
 # Install Python dependencies
 COPY requirements/development.txt requirements/development.txt
 COPY requirements/base.txt requirements/base.txt
-RUN pip install --no-cache-dir -r requirements/development.txt
+RUN pip install --no-cache-dir --timeout 120 -r requirements/development.txt
 
 COPY . .
 
