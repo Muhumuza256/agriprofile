@@ -1,6 +1,5 @@
 import { useQuery } from '@tanstack/react-query'
 import { analyticsApi } from '@/api/endpoints'
-import { monthName } from '@/utils/format'
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid,
 } from 'recharts'
@@ -9,11 +8,6 @@ export default function AnalyticsPage() {
   const { data: crops } = useQuery({
     queryKey: ['analytics', 'crops'],
     queryFn: () => analyticsApi.cropIntelligence().then((r) => r.data),
-  })
-
-  const { data: windows } = useQuery({
-    queryKey: ['analytics', 'seasonal'],
-    queryFn: () => analyticsApi.scoreDistribution().then((r) => r.data),
   })
 
   return (

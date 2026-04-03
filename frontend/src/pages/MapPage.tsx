@@ -1,4 +1,3 @@
-import { useEffect } from 'react'
 import { useQuery } from '@tanstack/react-query'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import { analyticsApi } from '@/api/endpoints'

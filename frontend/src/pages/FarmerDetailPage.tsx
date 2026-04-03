@@ -3,7 +3,7 @@ import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query'
 import { farmersApi } from '@/api/endpoints'
 import CreditBadge from '@/components/CreditBadge'
 import RiskFlags from '@/components/RiskFlags'
-import { formatUGX, formatAcres, monthName } from '@/utils/format'
+import { formatUGX, monthName } from '@/utils/format'
 import type { CreditBand } from '@/types'
 
 export default function FarmerDetailPage() {

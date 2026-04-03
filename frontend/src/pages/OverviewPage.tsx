@@ -1,7 +1,6 @@
 import { useQuery } from '@tanstack/react-query'
 import { analyticsApi } from '@/api/endpoints'
 import StatCard from '@/components/StatCard'
-import { formatUGX } from '@/utils/format'
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell,
 } from 'recharts'
@@ -65,7 +64,7 @@ export default function OverviewPage() {
             <BarChart data={distribution as ScoreBand[]}>
               <XAxis
                 dataKey="credit_band"
-                tick={{ fontSize: 12, textTransform: 'capitalize' }}
+                tick={{ fontSize: 12 }}
               />
               <YAxis tick={{ fontSize: 12 }} />
               <Tooltip
