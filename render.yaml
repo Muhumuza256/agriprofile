@@ -55,9 +55,10 @@ services:
     region: oregon
     plan: starter
     maxmemoryPolicy: allkeys-lru
+    ipAllowList: []
 
 databases:
   - name: agriprofile-db
     region: oregon
     plan: starter
-    postgresMajorVersion: 16
+    postgresMajorVersion: "16"
